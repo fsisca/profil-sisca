@@ -113,6 +113,29 @@ body {
 }
 
 .about {
-text-decoration: underline;
-color: #c71585;
+text-decoration: none;
+color: #c74c75;
+font-size: 15px;
+align-items: center;
+max-width: 700px;
+width: 100%;
+text-align: center;        
+margin: 0 auto; 
+}
+
+.about h2 {
+  font-size: 50px;
+}
+.about p {
+  font-size: 20px;
+}
+
+.skills {
+  text-decoration: none;
+  font-size: 20px;
+  color: #c74c75;
+  align-items: center;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
 }

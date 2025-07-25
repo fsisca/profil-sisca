@@ -8,9 +8,52 @@
 </head>
 
 <body>
-<div>
-    <img src="" alt="">
-</div>
+  <!-- Gambar kecil -->
+  <div class="certificates">
+    <img
+      src="myskill_excel.jpeg"
+      alt="Certificate"
+      class="thumbnail"
+      onclick="showPopup()"
+    />
+     <img
+      src="myskill_datascience.jpeg"
+      alt="Certificate"
+      class="thumbnail"
+      onclick="showPopup()"
+    />
+     <img
+      src="myskill_uiux.jpeg"
+      alt="Certificate"
+      class="thumbnail"
+      onclick="showPopup()"
+    />
+     <img
+      src="rocketdigital.jpeg"
+      alt="Certificate"
+      class="thumbnail"
+      onclick="showPopup()"
+    />
+  </div>
+
+  <!-- Overlay gambar besar (disembunyikan dulu) -->
+  <div class="popup" id="popup-container" onclick="hidePopup()">
+    <img
+      src="myskill_excel.jpeg"
+      alt="Certificate Large"
+      class="popup-image"
+    />
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function showPopup() {
+      document.getElementById("popup-container").style.display = "flex";
+    }
+
+    function hidePopup() {
+      document.getElementById("popup-container").style.display = "none";
+    }
+  </script>
 </body>
 </html>
-

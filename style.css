@@ -139,3 +139,44 @@ margin: 0 auto;
   text-align: center;
   margin: 0 auto;
 }
+
+/* Thumbnail di tengah atas */
+.certificates {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.thumbnail {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+/* Popup overlay, disembunyikan default */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-image {
+  max-width: 90%;
+  max-height: 90%;
+  border: 5px solid white;
+  border-radius: 10px;
+}

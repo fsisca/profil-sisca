@@ -11,44 +11,48 @@
   <!-- Gambar kecil -->
   <div class="certificates">
     <img
-      src="myskill_excel.jpeg"
+      src="myskill_excel.jpg"
       alt="Certificate"
       class="thumbnail"
-      onclick="showPopup()"
+      onclick="showPopup(this.src)"
     />
-     <img
-      src="myskill_datascience.jpeg"
+    <img
+      src="myskill_datascience.jpg"
       alt="Certificate"
       class="thumbnail"
-      onclick="showPopup()"
+      onclick="showPopup(this.src)"
     />
-     <img
-      src="myskill_uiux.jpeg"
+    <img
+      src="myskill_uiux.jpg"
       alt="Certificate"
       class="thumbnail"
-      onclick="showPopup()"
+      onclick="showPopup(this.src)"
     />
-     <img
+    <img
       src="rocketdigital.jpeg"
       alt="Certificate"
       class="thumbnail"
-      onclick="showPopup()"
+      onclick="showPopup(this.src)"
     />
   </div>
 
   <!-- Overlay gambar besar (disembunyikan dulu) -->
   <div class="popup" id="popup-container" onclick="hidePopup()">
     <img
-      src="myskill_excel.jpeg"
+      src=""
       alt="Certificate Large"
       class="popup-image"
+      id="popup-image"
     />
   </div>
 
   <!-- JavaScript -->
   <script>
-    function showPopup() {
-      document.getElementById("popup-container").style.display = "flex";
+    function showPopup(imageSrc) {
+      const popup = document.getElementById("popup-container");
+      const popupImage = document.getElementById("popup-image");
+      popupImage.src = imageSrc;
+      popup.style.display = "flex";
     }
 
     function hidePopup() {

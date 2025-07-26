@@ -26,9 +26,10 @@ body {
 }
 
 .welcome {
-  color: #4682B4;
+  color: #b44674;
   margin-top: 15px;
   font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .name {
@@ -56,7 +57,7 @@ body {
   display: inline-block;
   padding: 12px 24px;
   margin-top: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffd8f3;
   border: 1px solid #ccc;
   border-radius: 8px;
   text-decoration: none;
@@ -101,8 +102,9 @@ body {
 }
 
 .navbar a {
+  font-family: Arial;
  text-decoration: none;
- color: rgb(10, 10, 10);
+ color: rgb(194, 15, 104);
  font-weight: none;
  font-size: 16px;
  transition: color 0.3s ease;
@@ -121,13 +123,16 @@ max-width: 700px;
 width: 100%;
 text-align: center;        
 margin: 0 auto; 
+font-family: serif;
 }
 
 .about h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .about p {
-  font-size: 20px;
+  color: #535353;
+  font-size: 19px;
+  line-height: 1.8;
 }
 
 .skills {
@@ -135,9 +140,24 @@ margin: 0 auto;
   font-size: 20px;
   color: #c74c75;
   align-items: center;
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
+  font-family: serif;
+}
+
+.skills h2 {
+  font-size: 40px;
+}
+
+.skills p {
+  color: #535353;
+  font-size: 20px;
+}
+
+.certificates h2 {
+  color: #c74c75 ;
 }
 
 /* Thumbnail di tengah atas */

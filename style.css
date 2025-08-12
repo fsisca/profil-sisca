@@ -125,7 +125,7 @@ body {
     margin: 40px auto; 
     font-family: serif;
 
-    background-color: #f5e4ee; /* warna pink lembut */
+    background-color: #fde6f4; /* warna pink lembut */
     padding: 30px;
     border-radius: 12px; /* sudut melengkung */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
@@ -271,4 +271,29 @@ body {
   max-height: 90%;
   border: 5px solid white;
   border-radius: 10px;
+}
+
+/* Style umum untuk desktop */
+.about, .skills, .certificates {
+  max-width: 800px;
+  margin: 40 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Untuk layar ponsel (≤480px) */
+@media (max-width: 480px) {
+  .about, .skills, .certificates {
+    max-width: 90%; /* Biar tidak mepet ke pinggir */
+    padding: 15px;
+  }
+
+  .about h2, .skills h2, .certificates h2 {
+    font-size: 1.4rem; /* Judul sedikit lebih kecil */
+  }
+
+  .about p {
+    font-size: 0.95rem; /* Teks lebih nyaman dibaca di HP */
+    line-height: 1.5;
+  }
 }

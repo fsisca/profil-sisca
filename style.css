@@ -86,7 +86,7 @@ body {
 }
 
 .navbar {
-    background-color: #f3a4d6;
+    background-color: #fdb7e3;
     height: 30px;
     display: flex;
     align-items: center;
@@ -115,57 +115,129 @@ body {
 }
 
 .about {
-text-decoration: none;
-color: #c74c75;
-font-size: 15px;
-align-items: center;
-max-width: 700px;
-width: 100%;
-text-align: center;        
-margin: 0 auto; 
-font-family: serif;
+    text-decoration: none;
+    color: #c74c75;
+    font-size: 15px;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;        
+    margin: 40px auto; 
+    font-family: serif;
+
+    background-color: #facde7; /* warna pink lembut */
+    padding: 30px;
+    border-radius: 12px; /* sudut melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
 }
 
 .about h2 {
-  font-size: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
+
 .about p {
-  color: #535353;
-  font-size: 19px;
-  line-height: 1.8;
+    color: #535353;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* Animasi masuk */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about {
+    animation: fadeIn 0.8s ease-in-out;
 }
 
 .skills {
-  text-decoration: none;
-  font-size: 20px;
-  color: #c74c75;
-  align-items: center;
-  max-width: 700px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  font-family: serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #c74c75;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+    font-family: serif;
+
+    background-color: #facde7; /* warna pink lembut */
+    padding: 30px;
+    border-radius: 12px; /* sudut melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
 }
 
 .skills h2 {
-  font-size: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .skills p {
-  color: #535353;
-  font-size: 20px;
+    color: #535353;
+    font-size: 20px;
+}
+
+/* Animasi masuk */
+@keyframes fadeInSkills {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.skills {
+    animation: fadeInSkills 0.8s ease-in-out;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column; /* susun vertikal */
+    align-items: center;
+    margin: 40px auto;
+    max-width: 500px;
+    width: 100%;
+    background-color: #f8d8eb; /* warna pink lembut */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
 }
 
 .certificates h2 {
-  color: #c74c75 ;
+    color: #c74c75;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: serif;
 }
 
-/* Thumbnail di tengah atas */
-.certificates {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+.certificates-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
+
+.certificates-gallery img {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.certificates-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Animasi masuk */
+@keyframes fadeInSkills {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.certificates {
+    animation: fadeInSkills 0.8s ease-in-out;
+}
+
 
 .thumbnail {
   width: 160px;

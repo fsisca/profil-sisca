@@ -119,13 +119,13 @@ body {
     color: #c74c75;
     font-size: 15px;
     align-items: center;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     text-align: center;        
     margin: 40px auto; 
     font-family: serif;
 
-    background-color: #facde7; /* warna pink lembut */
+    background-color: #f5e4ee; /* warna pink lembut */
     padding: 30px;
     border-radius: 12px; /* sudut melengkung */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
@@ -157,13 +157,13 @@ body {
     font-size: 20px;
     color: #c74c75;
     align-items: center;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     text-align: center;
     margin: 40px auto;
     font-family: serif;
 
-    background-color: #facde7; /* warna pink lembut */
+    background-color: #fde6f4; /* warna pink lembut */
     padding: 30px;
     border-radius: 12px; /* sudut melengkung */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
@@ -194,9 +194,9 @@ body {
     flex-direction: column; /* susun vertikal */
     align-items: center;
     margin: 40px auto;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
-    background-color: #f8d8eb; /* warna pink lembut */
+    background-color: #fde6f4; /* warna pink lembut */
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* efek timbul */
